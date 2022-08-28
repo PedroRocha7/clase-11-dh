@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-server
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,gateway
+info:
+  app:
+    name: gateway-server
+    description: Gateway Server created for class 11
+    version: 1.0.0
