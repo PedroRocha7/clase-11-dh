@@ -8,8 +8,8 @@ management:
     web:
       exposure:
         include: health,info,gateway
-info:
-  app:
-    name: gateway-server
-    description: Gateway Server created for class 11
-    version: 1.0.0
+  info:
+    app:
+      name: gateway-server
+      description: Gateway Server created for class 11
+      version: 1.0.0
