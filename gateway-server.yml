@@ -7,9 +7,12 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,gateway
+        include:
+          - health
+          - info
+          - gateway
   info:
     app:
       name: gateway-server
-      description: Gateway Server created for class 11
+      description: Gateway-server for class 11
       version: 1.0.0
